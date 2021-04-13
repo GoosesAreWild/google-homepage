@@ -1,8 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>Google Homepage</head>
+    <style>
+.list{
+    list-style-type: none;
+}
+
+#left-hand-navbar{
+    align-items: right;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+
+#right-hand-navbar{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+    </style>
     <body>
-<header><nav><ul id = "left-hand navbar">
+<header><nav><ul id = "left-hand-navbar" class ="list">
     <li>
         About
     </li>
@@ -10,7 +31,7 @@
         Store
     </li>
     </ul>
-    <ul id = "right-hand navbar">
+    <ul id = "right-hand-navbar" class="list">
     <li>
         Gmail
     </li>
@@ -25,16 +46,16 @@
     </li>
 </ul></nav>
 </header>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 <input type ="text" placeholder="Search Google or type a URL">
 <button id ="search-button">Google Search</button>
 <button id = "feeling-lucky-button">I'm Feeling Lucky</button> 
        <footer>
-           <ul id="left-hand-footer">
+           <ul id="left-hand-footer" class="list">
                <li>Advertising</li>
                <li>Business</li>
                <li>How Search Works</li>
-               </ul><ul id = "right-hand-footer">
+               </ul><ul id = "right-hand-footer" class="list">
                <li>Privacy</li>
                <li>Terms</li>
                <li>Settings</li>
